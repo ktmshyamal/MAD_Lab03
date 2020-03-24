@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View view) {
 
-        Intent intent = new Intent(this,DisplayMessageActivity.class);
+        Intent intent = new Intent(this, com.example.labsheet_3.DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.editText);
         String message = editText.getText().toString();
 
